@@ -1,0 +1,14 @@
+title: "Mein Blog"
+description: "Ein simples Beispiel (GitHub Pages + Markdown + Theme)"
+remote_theme: jekyll/minima
+
+# Optional, aber praktisch: RSS/Atom Feed
+plugins:
+  - jekyll-feed
+
+# Kleine Komfort-Optionen
+show_excerpts: true
+
+# Optional: Minima-Theme Optionen (z. B. dark/light)
+minima:
+  skin: auto
