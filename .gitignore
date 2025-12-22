@@ -1,0 +1,6 @@
+.obsidian/
+.sass-cache/
+_site/
+.jekyll-cache/
+Gemfile.lock
+.DS_Store

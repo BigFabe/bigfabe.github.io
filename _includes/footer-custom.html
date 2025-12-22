@@ -1,0 +1,42 @@
+<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Farbschema wechseln">
+  Theme
+</button>
+
+<script>
+(function () {
+  const key = "so-simple-skin";
+  const base = "{{ '/assets/css/skins/' | relative_url }}";
+
+  function skinLinkEl() {
+    return document.querySelector('link[href*="/assets/css/skins/"]');
+  }
+
+  function apply(theme) {
+    const link = skinLinkEl();
+    if (link) link.href = base + theme + ".css";
+    document.documentElement.dataset.skin = theme;
+  }
+
+  function initialTheme() {
+    const saved = localStorage.getItem(key);
+    if (saved === "light" || saved === "dark") return saved;
+
+    const prefersDark = window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    return prefersDark ? "dark" : "light";
+  }
+
+  apply(initialTheme());
+
+  const btn = document.getElementById("theme-toggle");
+  if (btn) {
+    btn.addEventListener("click", function () {
+      const current = document.documentElement.dataset.skin === "dark" ? "dark" : "light";
+      const next = current === "dark" ? "light" : "dark";
+      localStorage.setItem(key, next);
+      apply(next);
+    });
+  }
+})();
+</script>

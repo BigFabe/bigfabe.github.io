@@ -1,0 +1,78 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+
+/* 1) Font-Variablen VOR den Imports überschreiben */
+$serif-font-family: "Literata", serif;
+$sans-serif-font-family: "Inter", sans-serif;
+$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
+
+$base-font-family: $serif-font-family;
+$headline-font-family: $sans-serif-font-family;
+$title-font-family: $serif-font-family;
+$description-font-family: $serif-font-family;
+$meta-font-family: $serif-font-family;
+
+/* 2) Theme-Sass laden */
+@import "so-simple";
+
+
+.theme-toggle{
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+
+  padding: .5rem .75rem;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Swap: im Light-Modus Button dunkel */
+html[data-skin="light"] .theme-toggle{
+    color: #111;
+    border-color: #111;
+}
+
+/* Swap: im Dark-Modus Button hell */
+html[data-skin="dark"] .theme-toggle{
+  color: #fff;
+  border-color: #fff;
+}
+
+.page-image img {
+  width: 100%;
+  height: 720px;        /* <- gewünschte sichtbare Höhe */
+  object-fit: cover;    /* beschneidet statt zu verzerren */
+  object-position: center;
+}
+
+
+main,
+.page-content,
+.e-content,
+.entry-content,
+.post-content {
+  font-size: 24px;
+  line-height: 1.7;
+  text-align: justify;
+
+  /* bessere Worttrennung/Blocksatz-Optik */
+  hyphens: auto;
+  text-align-last: left;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* Überschriften nicht mit Zeilenhöhe 2 "aufblasen" */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+

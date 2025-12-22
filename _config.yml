@@ -1,7 +1,8 @@
-title: "Mein Blog"
-description: "Ein simples Beispiel (GitHub Pages + Markdown + Theme)"
+title: "Sensemaking Blog"
+description: "Here I prepare my thoughts and argumentation arcs without beeing bound to scientific bullshit."
 
-remote_theme: pages-themes/merlot@v0.2.0
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "/assets/css/skins/dark.css"
 
 
 # Optional, aber praktisch: RSS/Atom Feed
@@ -18,6 +19,13 @@ sass:
 # Kleine Komfort-Optionen
 show_excerpts: true
 
-# Optional: Minima-Theme Optionen (z. B. dark/light)
-minima:
-  skin: auto
+read_time: true
+words_per_minute: 200
+
+search_full_content: true
+
+google_fonts:
+  - name: "Merriweather"
+    weights: "400,400i,700,700i"
+  - name: "Literata"
+    weights: "400,400i,700,700i"
