@@ -1,0 +1,23 @@
+title: "Mein Blog"
+description: "Ein simples Beispiel (GitHub Pages + Markdown + Theme)"
+
+remote_theme: pages-themes/merlot@v0.2.0
+
+
+# Optional, aber praktisch: RSS/Atom Feed
+plugins:
+  - jekyll-feed
+  - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-remote-theme 
+
+# Statische Dateien (für eigenes CSS)
+sass:
+  style: compressed
+
+# Kleine Komfort-Optionen
+show_excerpts: true
+
+# Optional: Minima-Theme Optionen (z. B. dark/light)
+minima:
+  skin: auto
