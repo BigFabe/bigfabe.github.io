@@ -6,3 +6,4 @@ gem 'jekyll-relative-links'
 gem 'jekyll-default-layout'
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-theme-so-simple"
+gem "jekyll-sitemap"

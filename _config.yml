@@ -11,6 +11,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-default-layout
   - jekyll-remote-theme 
+  - jekyll-sitemap
 
 # Statische Dateien (für eigenes CSS)
 sass:
