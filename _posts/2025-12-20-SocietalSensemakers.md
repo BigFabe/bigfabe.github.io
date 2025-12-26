@@ -3,7 +3,7 @@ title: "Societal Sensemakers"
 layout: post
 image: 
     path: "https://unsplash.com/photos/ISs7qT9fEn8/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fHllbGxvd3N0b25lfGRlfDB8fHx8MTc2NjMzNjc5OHww&force=true"
-    caption: "Photo by Yannick Menard via [Unsplash](https://unsplash.com/de/@yannickmenard)"
+    caption: "Photo by Yannick Menard via [Unsplash](https://unsplash.com/@yannickmenard)"
 ---
 
 A few days ago I held a presentation about the concept of action. For some sociologists human actions are the base for explaining social life (in contrast to other for whom communication is) and as that it is obviously very important. The presentation was held along a text by Uwe Schimank, who apparently is inspired by Luhmanns systems theory (which is quite funny since without knowing I also connected him to Luhmann). 

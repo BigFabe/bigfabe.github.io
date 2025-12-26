@@ -2,8 +2,8 @@
 title: Why do all my texts suck?
 layout: post
 image:
-  path: https://unsplash.com/photos/ISs7qT9fEn8/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fHllbGxvd3N0b25lfGRlfDB8fHx8MTc2NjMzNjc5OHww&force=true
-  caption: Photo by Yannick Menard via [Unsplash](https://unsplash.com/de/@yannickmenard)
+  path: https://images.unsplash.com/photo-1624010961233-080af3020af4?ixid=M3w2NTYzNzJ8MHwxfHNlYXJjaHw2fHxjbG93bnxlbnwwfDB8fHwxNzY2Nzg3ODQ4fDA&ixlib=rb-4.1.0
+  caption: Photo by Quino Al via [Unsplash](https://unsplash.com/@quinoal)
 ---
 
 # WORK IN PROGRESS 
